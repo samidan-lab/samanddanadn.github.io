@@ -1,0 +1,53 @@
+.text-abt{
+    border-radius: 1.5em;
+    padding: 2em;
+    margin: 3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.blue{
+    width: 300px;
+}
+.green{
+    width: 250px;
+}
+.orange{
+    width: 250px;
+}
+.yellow{
+    width: 375px;
+    margin-top: 0.5em;
+}
+.pictures{
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em 5em;
+}
+
+
+.pictures-cans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blue:hover{
+    width: 350px;
+    height: auto;
+}
+.green:hover{
+    width: 300px;
+    height: auto;
+}
+.orange:hover{
+    width: 300px;
+    height: auto;
+}
+.yellow:hover{
+    width: 425px;
+    height: auto;
+}

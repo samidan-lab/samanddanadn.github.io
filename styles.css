@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "mil";
+    src: url(sourse/fonts/Milligram-Bold.ttf);
+}
+
+
+.row{
+    display: flex;
+    justify-content: right;
+}
+.main-text{
+    border-radius: 3em;
+
+    padding: 2em;
+    margin: 5em 3em 3em 1em;
+
+    background: #ffffff;
+    background: linear-gradient(180deg, rgb(118, 218, 159) 0%, rgb(37, 72, 121) 100%);
+}
+
+.main-text2{
+    padding: 2em;
+
+
+    background: #ffffff;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(118, 218, 159) 100%);
+}
+
+
+.kaban>img{
+    position: absolute;
+    align-items: center;
+    justify-content: left;
+
+
+
+    width: 500px;
+    border-radius: 3em;
+    margin-left: 0.75em;
+}
+@media(max-width: 2000px){
+    .kaban{
+        width: 500px;
+        height: auto;
+    }
+}
+@media(max-width: 800px){
+    .kaban{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.nav2{
+    padding: 1em;
+    margin-top: -0.5em;
+
+    background: #ffffff;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(94, 189, 134, 1) 50%, rgba(53, 93, 150, 1) 100%);
+}
+
+
+.footer{
+    background: #ffffff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(20, 52, 97) 100%);
+}
+.row{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.VK:hover {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #7db2e3;
+    background: linear-gradient(180deg, rgba(125, 178, 227, 1) 0%, rgba(28, 117, 196, 1) 100%);
+}
+.utube:hover {
+    padding: 5px;
+    border-radius: 10px;
+    background: #db7b7b;
+    background: linear-gradient(180deg, rgba(219, 123, 123, 1) 0%, rgba(196, 28, 28, 1) 100%);
+}
+
+
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tochka, .razdel, .ano{
+    color: white;
+    text-decoration: none;
+}
+.tochka:hover, .razdel:hover, .ano:hover{
+    color: yellow;
+}
